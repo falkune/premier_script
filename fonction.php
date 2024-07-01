@@ -33,3 +33,13 @@ function addition($a, $b){
 
 $monResultat = addition(8, 2);
 echo $monResultat;
+
+
+// fuction qui permet de verifier si unmbre donne est paire ou impaire
+function estPaire($nb){
+    // return $nb % 2 == 0;
+    if($nb % 2 == 0){
+        return true;
+    }
+    return false;
+}
